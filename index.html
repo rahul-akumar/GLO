@@ -11,28 +11,56 @@
 </head>
 
 <body>
-	<header> <!--Header-->
+	<header>
+		<!--Header-->
 		<div id="logo">GLO</div>
 		<div id="setting_btn">
-			ul>li*3>a
+			<ul>
+				<li><a href="#preferences">Preferences</a>
+				</li>
+				<li><a href="#support">Support</a>
+				</li>
+				<li><a href="#logout">Logout</a>
+				</li>
+			</ul>
 		</div>
 		<div id="search">
-			#search_ctg+#search_field+#search_btn
+			<select>
+				<option value="people">People</option>
+				<option value="skills">Skills</option>
+				<option value="organization">Organization</option>
+				<option value="communities">Communities</option>
+				<option value="posts">Posts</option>
+			</select>
+			<div id="search_field"></div>
+			<div id="search_btn"></div>
 		</div>
 	</header>
-	<nav><!--Navbar-->
-		ul>li*5>a{item$}
+	<nav>
+		<!--Navbar-->
+		<ul>
+			<li><a href="#home">Home</a></li>
+			<li><a href="#profile">My Profile</a></li>
+			<li><a href="#organization">Organization</a></li>
+			<li><a href="#communities">Communities</a></li>
+			<li><a href="#apps">Apps</a></li>
+		</ul>
 	</nav>
-	<main><!--Main Body-->
-		<section>
+	<main>
+		<!--Content Container-->
+		<article>
+			<!--Main Content-->
 
-		</section>
-		<aside id="sidebar"><!--Sidebar-->
+		</article>
+		<aside id="sidebar">
+			<!--Sidebar-->
 
 		</aside>
 	</main>
-	<footer><!--Footer-->
+	<footer>
+		<!--Footer-->
 	</footer>
+
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 	<script src="js/main.js"></script>
 </body>
