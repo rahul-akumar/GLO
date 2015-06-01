@@ -1,6 +1,7 @@
-*{
+* {
 	font-family: roboto, arial, sans-serif;
 }
+
 header {
 	background-color: #414042;
 	width: 100%;
@@ -8,9 +9,20 @@ header {
 	border-bottom: 2px solid #F5D114;
 }
 
+header .container {
+	width: 960px;
+	margin: 0 auto;
+}
+
 #logo {
+	float: left;
 	font-size: 45px;
 	color: white;
+}
+
+#setting_btn {
+	float: right;
+	margin-top: -10px;
 }
 
 #setting_btn ul li {
@@ -30,15 +42,54 @@ header {
 }
 
 header #search {
-	width: 700px;
+	clear: both;
+	float: right;
+	width: 800px;
 	height: 50px;
+	margin-top: -4px;
 	background-color: #6D6E71;
 }
 
+#search span {
+	margin-top: 15px;
+	left: 5%;
+	float: left;
+	padding: 0 10px;
+	color: #E6E7E8;
+	font-size: 18px;
+}
+
+#search select {
+	margin-top: 13px;
+	float: left;
+}
+
+#search #search_field {
+	margin-top: 13px;
+	float: left;
+	padding-left: 10px;
+	font-size: 12px;
+	color: rgba(0,0,0,0.5);
+}
+
+#search #search_field input {
+	width: 400px;
+	height: 20px
+}
+
+#search #search_btn {
+	margin-top: 13px;
+	float: left;
+	padding-left: 10px;
+	height: 20px;
+}
+
+#search #search_btn input {
+	position: absolute;
+	width: 70px;
+
+}
 select {
-	-webkit-appearance: none;
-	-moz-appearance: none;
-	appearance: none;
 	background-color: #ECECEC;
 	border: 1px solid #F5D114;
 }
@@ -59,10 +110,18 @@ nav {
 	height: 50px;
 }
 
+nav .container {
+	width: 960px;
+}
+
+nav ul {
+	margin: 0 auto;
+}
+
 nav ul li {
 	list-style: none;
 	display: inline;
-	padding-left: 50px;
+	padding-left: 60px;
 }
 
 nav ul li a {
@@ -71,7 +130,6 @@ nav ul li a {
 	font-size: 18px;
 	color: #FDFDFD;
 }
-
 
 main {
 	background-color: white;
