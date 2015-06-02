@@ -145,13 +145,98 @@ nav ul li.active {
 	height: 25px;
 }
 
-nav ul li.active a {
+nav ul .active a {
 	color: #414042;
 }
 /* Navigation End */
+/* Main Start */
 
 main {
 	background-color: white;
 	width: 100%;
 	height: auto;
 }
+
+main .container {
+	width: 960px;
+	margin: 0 auto;
+}
+
+article {
+	width: 70%;
+	height: auto;
+	background-color: tomato; /* delete */
+}
+/* Status Bar Start */
+
+main article #status {
+	width: 100%;
+	height: 100px;
+	padding: 25px;
+	background-color: white;
+}
+
+main #status #user_pic {
+	float: left;
+	width: 100px;
+	height: 100px;
+	background-color: bisque;
+	border: 2px solid grey;
+}
+
+main article #status h4 {
+	width: 80%;
+	font-size: 1.5em;
+	color: #F37037;
+	float: left;
+	padding-left: 20px;
+	margin-top: -5px;
+}
+
+main article #status h6 {
+	font-family: roboto light;
+	font-size: 0.75em;
+	color: #6D6E71;
+}
+
+main article #status #comment_area {
+	float: left;
+	width: 80%;
+	height: 61px;
+	margin-top: -27px;
+	margin-left: 20px;
+	background-color: #F0F1F3;
+	padding: 5px;
+	padding-top: 9px;
+}
+
+main article #status #comment_area input[type="text"] {
+	width: 78%;
+	height: 25px;
+	border: 1px solid rgba(0,0,0,0.2);
+	color: rgba(0,0,0,0.6);
+	padding-left: 10px;
+}
+
+main article #status #comment_area input[type="button"] {
+	width: 100px;
+	height: 31px;
+	color: white;
+	background-color: #F37037;
+	border: 1px solid #D74B0E;
+}
+
+main article #status #comment_area input[type="button"]:hover {
+	background-color: #D74B0E;
+	border: 1px solid #F37037;
+}
+
+main article #status #comment_area h6 {
+	clear: both;
+	margin: 0;
+	float: right;
+	padding-top: 10px;
+	padding-right: 2px;
+}
+
+/* Status Bar End */
