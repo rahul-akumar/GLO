@@ -1,46 +1,38 @@
 * {
 	font-family: roboto, arial, sans-serif;
 }
-
 header {
 	background-color: #414042;
 	width: 100%;
 	height: 100px;
 	border-bottom: 2px solid #F5D114;
 }
-
 header .container {
 	width: 960px;
 	margin: 0 auto;
 }
-
 #logo {
 	float: left;
 	font-size: 45px;
 	color: white;
 }
-
 #setting_btn {
 	float: right;
 	margin-top: -10px;
 }
-
 #setting_btn ul li {
 	list-style: none;
 	display: inline;
 	padding-left: 10px;
 }
-
 #setting_btn ul li a {
 	text-decoration: none;
 	font-size: 12px;
 	color: #AAAAA6;
 }
-
 #setting_btn ul li a:hover {
 	color: #E6E7E8;
 }
-
 header #search {
 	clear: both;
 	float: right;
@@ -49,7 +41,6 @@ header #search {
 	margin-top: -4px;
 	background-color: #6D6E71;
 }
-
 #search span {
 	margin-top: 15px;
 	left: 5%;
@@ -58,12 +49,10 @@ header #search {
 	color: #E6E7E8;
 	font-size: 18px;
 }
-
 #search select {
 	margin-top: 13px;
 	float: left;
 }
-
 #search #search_field {
 	margin-top: 13px;
 	float: left;
@@ -71,106 +60,81 @@ header #search {
 	font-size: 12px;
 	color: rgba(0, 0, 0, 0.5);
 }
-
 #search #search_field input {
 	width: 400px;
 	height: 20px
 }
-
 #search #search_btn {
 	margin-top: 13px;
 	float: left;
 	padding-left: 10px;
 	height: 20px;
 }
-
 #search #search_btn input {
 	position: absolute;
 	width: 70px;
 }
-
 select {
 	background-color: #ECECEC;
 	border: 1px solid #F5D114;
 	height: 25px;
 }
-
 select:hover {
 	background-color: #FFF8D2;
 	border: 1px solid #F5D114;
 }
-
 select:active {
 	background-color: white;
 	border: 1px solid #F5D114;
 }
 /* Navigation Start */
-
-nav {
+ nav {
 	background-color: #6D6E71;
 	width: 100%;
 	height: 50px;
 }
-
 nav .container {
 	width: 960px;
 	margin: 0 auto;
 	padding: 14px;
 }
-
 nav ul {
 	margin: 0 auto;
 }
-
 nav ul li {
 	list-style: none;
 	display: inline;
 	padding-left: 60px;
 }
-
 nav ul li a {
 	text-decoration: none;
 	font-family: roboto light;
 	font-size: 18px;
 	color: #FDFDFD;
 }
-
 nav ul li a:hover {
 	color: #F5D114;
 }
-
-nav ul li.active {
-	background-color: white;
-	width: 100%;
-	height: 25px;
-}
-
-nav ul .active a {
-	color: #414042;
-}
 /* Navigation End */
-/* Main Content Start */
 
-main {
+/* Main Content Start */
+ main {
 	background-color: white;
 	width: 100%;
 	height: auto;
 }
-
 main .container {
 	width: 960px;
 	height: auto;
 	margin: 0 auto;
 }
 /* Status Bar Start */
-
-main #status {
+ main #status {
 	width: 70%;
 	height: 100px;
 	padding: 25px;
 	background-color: white;
 }
-
 main #status .user_pic {
 	float: left;
 	width: 100px;
@@ -178,7 +142,6 @@ main #status .user_pic {
 	background-color: bisque;
 	border: 2px solid grey;
 }
-
 main #status h4 {
 	width: 80%;
 	font-size: 1.5em;
@@ -187,13 +150,11 @@ main #status h4 {
 	padding-left: 20px;
 	margin-top: -5px;
 }
-
 main #status h6 {
 	font-family: roboto light;
 	font-size: 0.75em;
 	color: #6D6E71;
 }
-
 main #status #comment_area {
 	float: left;
 	width: 80%;
@@ -204,7 +165,6 @@ main #status #comment_area {
 	padding: 5px;
 	padding-top: 9px;
 }
-
 main #status #comment_area input[type="text"] {
 	width: 78%;
 	height: 25px;
@@ -212,7 +172,6 @@ main #status #comment_area input[type="text"] {
 	color: rgba(0, 0, 0, 0.6);
 	padding-left: 10px;
 }
-
 main #status #comment_area input[type="button"] {
 	width: 100px;
 	height: 29px;
@@ -220,12 +179,10 @@ main #status #comment_area input[type="button"] {
 	background-color: #F37037;
 	border: 1px solid #D74B0E;
 }
-
 main #status #comment_area input[type="button"]:hover {
 	background-color: #D74B0E;
 	border: 1px solid #F37037;
 }
-
 main #status #comment_area h6 {
 	clear: both;
 	margin: 0;
@@ -234,24 +191,21 @@ main #status #comment_area h6 {
 	padding-right: 2px;
 }
 /* Status Bar End */
-/* Main Content Start */
 
-#posts {
+/* Main Content Start */
+ #posts {
 	width: 70%;
 }
-
 .user_pic {
 	width: 100px;
 	height: 100px;
 	background-color: bisque;
 	border: 2px solid grey;
 }
-
 .floated_img {
 	float: left;
 	margin-right: 5px;
 }
-
 .floated_img img {
 	width: 150px;
 	height: 150px;

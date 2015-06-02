@@ -1,134 +1,143 @@
 <!doctype html>
 <html>
-
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>GLO</title>
-	<link rel="stylesheet" href="css/normalize.css">
-	<link rel="stylesheet" href="css/style.css">
-</head>
-
-<body>
-	<header>
-		<div class="container">
-			<!--Header-->
-			<div id="logo">GLO</div>
-			<div id="setting_btn">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>GLO</title>
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<!--Header-->
+				<div id="logo">GLO</div>
+				<div id="setting_btn">
+					<ul>
+						<li>
+							<a href="#preferences">Preferences</a>
+						</li>
+						<li>
+							<a href="#support">Support</a>
+						</li>
+						<li>
+							<a href="#logout">Logout</a>
+						</li>
+					</ul>
+				</div>
+				<div id="search">
+					<span>Search GLO by</span>
+					<select>
+						<option value="people">People</option>
+						<option value="skills">Skills</option>
+						<option value="organization">Organization</option>
+						<option value="communities">Communities</option>
+						<option value="posts">Posts</option>
+					</select>
+					<div id="search_field">
+						<input type="text" value="Search people by name, email, designation, phone...">
+					</div>
+					<div id="search_btn">
+						<input type="button" value="Search">
+						<!--background-image CSS-->
+					</div>
+				</div>
+			</div>
+		</header>
+		<nav>
+			<!--Navbar-->
+			<div class="container">
 				<ul>
-					<li><a href="#preferences">Preferences</a>
+					<li id="active" onclick="myFunction()">
+						<a href="#home">Home</a>
 					</li>
-					<li><a href="#support">Support</a>
+					<li>
+						<a href="#profile">My Profile</a>
 					</li>
-					<li><a href="#logout">Logout</a>
+					<li>
+						<a href="#organization">Organization</a>
+					</li>
+					<li>
+						<a href="#communities">Communities</a>
+					</li>
+					<li>
+						<a href="#apps">Apps</a>
 					</li>
 				</ul>
 			</div>
-			<div id="search">
-				<span>Search GLO by</span>
-				<select>
-					<option value="people">People</option>
-					<option value="skills">Skills</option>
-					<option value="organization">Organization</option>
-					<option value="communities">Communities</option>
-					<option value="posts">Posts</option>
-				</select>
-				<div id="search_field">
-					<input type="text" value="Search people by name, email, designation, phone...">
-				</div>
-				<div id="search_btn">
-					<input type="button" value="Search">
-					<!--background-image CSS-->
-				</div>
-			</div>
-		</div>
-	</header>
-	<nav>
-		<!--Navbar-->
-		<div class="container">
-			<ul>
-				<li class="active"><a href="#home">Home</a>
-				</li>
-				<li><a href="#profile">My Profile</a>
-				</li>
-				<li><a href="#organization">Organization</a>
-				</li>
-				<li><a href="#communities">Communities</a>
-				</li>
-				<li><a href="#apps">Apps</a>
-				</li>
-			</ul>
-		</div>
-	</nav>
-	<main>
-		<div class="container">
-			<!--Main Content-->
-			<div id="status">
-				<!--User status-->
-				<div class="user_pic"></div>
-				<h4>User Name</h4>
-				<div id="comment_area">
-					<input type="text" value="What are you doing? " id="write">
-					<input type="button" value="Share" id="share">
-					<h6>500 Character left</h6>
-				</div>
-			</div>
-			<div id="posts">
-				<h2>Activity Feed</h2>
-				<section id="post1">
+		</nav>
+		<main>
+			<div class="container">
+				<!--Main Content-->
+				<div id="status">
+					<!--User status-->
 					<div class="user_pic"></div>
-					<h4 class="name_link"><a href="#harun">Harun Rashid</a></h4>
-					<p> - Posted in <a href="#communication">GlobalLogin India Communications</a> community.</p>
-					<!--Insert small icon-->
-					<h4 class="name_link"><a href="#swift">GlobalLogic @ Swift Circuit Challenge</a></h4>
-					<p>Swift circuit challenge Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis...<a href="#more" class="link">more</a>
-					</p>
-					<div class="img_grid">
-						<div class="floated_img">
-							<img src="http://dummyimage.com/800x600/4d494d/686a82.gif&text=placeholder+image" alt="placeholder+image" />
-						</div>
-						<div class="floated_img">
-							<img src="http://dummyimage.com/800x600/4d494d/686a82.gif&text=placeholder+image" alt="placeholder+image" />
-						</div>
-						<div class="floated_img">
-							<img src="http://dummyimage.com/800x600/4d494d/686a82.gif&text=placeholder+image" alt="placeholder+image" />
-						</div>
-						<div class="floated_img">
-							<img src="http://dummyimage.com/800x600/4d494d/686a82.gif&text=placeholder+image" alt="placeholder+image" />
-						</div>
-						<div class="floated_img">
-							<img src="http://dummyimage.com/800x600/4d494d/686a82.gif&text=placeholder+image" alt="placeholder+image" />
-						</div>
-						<div class="floated_img">
-							<img src="http://dummyimage.com/800x600/4d494d/686a82.gif&text=placeholder+image" alt="placeholder+image" />
-						</div>
-						<div class="floated_img">
-							<img src="http://dummyimage.com/800x600/4d494d/686a82.gif&text=placeholder+image" alt="placeholder+image" />
-						</div>
-						<div class="floated_img">
-							<img src="http://dummyimage.com/800x600/4d494d/686a82.gif&text=placeholder+image" alt="placeholder+image" />
-						</div>
-						<div class="floated_img">
-							<img src="http://dummyimage.com/800x600/4d494d/686a82.gif&text=placeholder+image" alt="placeholder+image" />
-						</div>
-						<div class="floated_img">
-							<img src="http://dummyimage.com/800x600/4d494d/686a82.gif&text=placeholder+image" alt="placeholder+image" />
-						</div>
+					<h4>User Name</h4>
+					<div id="comment_area">
+						<input type="text" value="What are you doing? " id="write">
+						<input type="button" value="Share" id="share">
+						<h6>500 Character left</h6>
 					</div>
-					<p class="info_txt">View : 5</p>
-				</section>
-				<!--Insert Section 2-->
+				</div>
+				<div id="posts">
+					<h2>Activity Feed</h2>
+					<section id="post1">
+						<div class="user_pic"></div>
+						<h4 class="name_link">
+							<a href="#harun">Harun Rashid</a>
+						</h4>
+						<p>- Posted in
+							<a href="#communication">GlobalLogin India Communications</a>community.</p>
+						<!--Insert small icon-->
+						<h4 class="name_link">
+							<a href="#swift">GlobalLogic @ Swift Circuit Challenge</a>
+						</h4>
+						<p>Swift circuit challenge Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis...
+							<a href="#more" class="link">more</a>
+						</p>
+						<div class="img_grid">
+							<div class="floated_img">
+								<img src="http://dummyimage.com/800x600/4d494d/686a82.gif&text=placeholder+image" alt="placeholder+image" />
+							</div>
+							<div class="floated_img">
+								<img src="http://dummyimage.com/800x600/4d494d/686a82.gif&text=placeholder+image" alt="placeholder+image" />
+							</div>
+							<div class="floated_img">
+								<img src="http://dummyimage.com/800x600/4d494d/686a82.gif&text=placeholder+image" alt="placeholder+image" />
+							</div>
+							<div class="floated_img">
+								<img src="http://dummyimage.com/800x600/4d494d/686a82.gif&text=placeholder+image" alt="placeholder+image" />
+							</div>
+							<div class="floated_img">
+								<img src="http://dummyimage.com/800x600/4d494d/686a82.gif&text=placeholder+image" alt="placeholder+image" />
+							</div>
+							<div class="floated_img">
+								<img src="http://dummyimage.com/800x600/4d494d/686a82.gif&text=placeholder+image" alt="placeholder+image" />
+							</div>
+							<div class="floated_img">
+								<img src="http://dummyimage.com/800x600/4d494d/686a82.gif&text=placeholder+image" alt="placeholder+image" />
+							</div>
+							<div class="floated_img">
+								<img src="http://dummyimage.com/800x600/4d494d/686a82.gif&text=placeholder+image" alt="placeholder+image" />
+							</div>
+							<div class="floated_img">
+								<img src="http://dummyimage.com/800x600/4d494d/686a82.gif&text=placeholder+image" alt="placeholder+image" />
+							</div>
+							<div class="floated_img">
+								<img src="http://dummyimage.com/800x600/4d494d/686a82.gif&text=placeholder+image" alt="placeholder+image" />
+							</div>
+						</div>
+						<p class="info_txt">View : 5</p>
+					</section>
+					<!--Insert Section 2-->
+				</div>
 			</div>
-		</div>
-	</main>
-	<!--Footer-->
-	<footer>
-
-	</footer>
-
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-	<script src="js/main.js"></script>
-</body>
+		</main>
+		<!--Footer-->
+		<footer></footer>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		<script src="js/main.js"></script>
+	</body>
 
 </html>
